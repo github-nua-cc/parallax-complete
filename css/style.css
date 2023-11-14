@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.p-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+#p1{ 
+    height: 100vh;
+    background-image: url("../images/beach.jpg");
+}
+#p2{
+    background-image: url("../images/elm-hill.jpg");
+    height: 500px;
+}
+#p3{
+    background-image: url("../images/river.jpg");
+    height: 500px;
+}
+#p4{
+    background-image: url("../images/market.jpg");
+    height: 100%;
+}
+.p-text{
+    margin: 0;
+    padding: 0px;
+    text-align:center;
+    color:#ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    /* opacity: 1.00; */
+  }
+  .p-text-container{
+    background-color:#111;
+    padding:20px;
+    height: 50px;
+  }
+  .section{
+    text-align:center;
+    padding-top:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+  }
+  .section-title{
+    margin: 0;
+    font-size:36px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+  }
+  .section-text{
+    font-size:20px;
+    line-height: 30px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    color: rgb(52, 52, 52);
+    text-align: justify;
+  }
